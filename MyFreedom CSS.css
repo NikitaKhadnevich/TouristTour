@@ -34,7 +34,7 @@ article {
 }
 
 .header {
-  width: 78.33%;
+  width: 85%;
   min-height: 60px;
   display: grid;
   justify-content: space-around;
@@ -136,11 +136,11 @@ article {
 }
 
 .withus {
-  margin-top: 83px;
   display: flex;
   justify-content: space-between;
-  margin-left: 151px;
-  margin-right: 67px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 90px;
 }
 
 .withus_left {
@@ -168,13 +168,14 @@ article {
   color: #ffffff;
 }
 
-.withusform {
+.withus_form {
   width: 500px;
   height: 360px;
   background: rgba(51, 51, 51, 0.25);
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(24px);
   border-radius: 10px;
+  padding: 0px 15px;
   display: grid;
 }
 
@@ -243,21 +244,24 @@ form {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-position: 330px;
+  background-position: 95%;
   background-image: url(Pics/Form/Arrow_down.png);
   background-repeat: no-repeat;
-
   outline: none;
 }
 
+.howlong input[type="text"] {
+  background-image: none;
+}
+
 .when select[type="text"] {
-  background-position: 140px;
+  background-position: 95%;
 }
 
 .where input[type="text"] {
   background-image: url(Pics/Form/Ellipse.png);
   background-repeat: no-repeat;
-  background-position: 333px;
+  background-position: 95%;
   outline: none;
 } /*Вставка графики в форму*/
 
@@ -362,7 +366,7 @@ form {
   color: #333333;
 }
 
-.whyuskarkas {
+.whyus_wrapper {
   min-height: 263px;
   background-size: cover;
   overflow: hidden;
@@ -389,24 +393,18 @@ form {
 }
 
 .advantages {
-  width: 78.33%;
-  display: grid;
-  justify-content: space-around;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
-  justify-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(30px, auto);
 }
 
-.visa,
-.world,
-.guide,
-.equipment {
+.advantages_item {
   width: 100%;
   min-height: 168px;
   display: grid;
   align-content: space-between;
-  margin: 0;
+  margin: 0px 10px;
 }
 
 .visapics,
@@ -418,19 +416,13 @@ form {
   margin-top: 35px;
 }
 
-.visap,
-.worldp,
-.guidep,
-.equipmentp {
+.advantages_info {
   margin-top: 10px;
   display: grid;
   justify-content: center;
 }
 
-.visap p,
-.worldp p,
-.guidep p,
-.equipmentp p {
+.advantages_info p {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -439,7 +431,6 @@ form {
 }
 
 .development {
-  min-height: 1139px;
   background: #1b1e22;
   overflow: hidden;
 }
@@ -456,23 +447,17 @@ form {
 }
 
 .tourist_routes {
-  width: 78.33%;
+  width: 85%;
   display: grid;
   justify-content: space-around;
   grid-gap: 24px;
   margin: 0 auto;
   justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(30px, auto);
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-.routes__1,
-.routes__2,
-.routes__3,
-.routes__4,
-.routes__5,
-.routes__6 {
+.routes {
   background: #23282f;
   max-width: 360px;
   min-height: 432px;
@@ -480,26 +465,17 @@ form {
   display: grid;
   align-items: start;
   transition: 0.5s all;
+  position: relative;
 }
 
-.routes__1 img,
-.routes__2 img,
-.routes__3 img,
-.routes__4 img,
-.routes__5 img,
-.routes__6 img {
+.routes img {
   max-width: 360px;
   height: 216px;
   margin: 0;
   line-height: 0;
 }
 
-.routes__1 h4,
-.routes__2 h4,
-.routes__3 h4,
-.routes__4 h4,
-.routes__5 h4,
-.routes__6 h4 {
+.routes h4 {
   font-family: "Montserrat-Light";
   font-style: normal;
   font-weight: 500;
@@ -510,12 +486,7 @@ form {
   margin: 0 auto;
 }
 
-.routes__1 p,
-.routes__2 p,
-.routes__3 p,
-.routes__4 p,
-.routes__5 p,
-.routes__6 p {
+.routes p {
   font-family: "Montserrat-Light";
   font-style: normal;
   font-size: 14px;
@@ -528,12 +499,7 @@ form {
   margin-top: 16px;
 }
 
-.routes__1 a,
-.routes__2 a,
-.routes__3 a,
-.routes__4 a,
-.routes__5 a,
-.routes__6 a {
+.routes a {
   align-self: end;
   font-family: "Montserrat-Medium";
   font-style: normal;
@@ -552,9 +518,8 @@ form {
   width: 248px;
   height: 32px;
   display: flex;
-  justify-content: left;
-  margin-top: -57px;
-  margin-bottom: 41px;
+  position: absolute;
+  top: 170px;
 }
 
 .pleft,
@@ -772,7 +737,9 @@ form {
 }
 
 .statistics {
-  min-height: 263px;
+  min-height: 265px;
+  display: flex;
+  align-items: center;
   background-image: -webkit-linear-gradient(
       rgba(27, 30, 34, 0.78),
       #1b1e22 80.67%
@@ -788,22 +755,18 @@ form {
 }
 
 .about {
-  width: 78.3%;
-  min-height: 136px;
-  display: grid;
-  justify-content: space-around;
-  justify-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 25px;
+  width: 85%;
+  min-height: 135px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
-  margin-top: 59px;
-  margin-bottom: 68px;
-  grid-auto-rows: minmax(30px, auto);
 }
 
-.numbers {
+.about_numbers {
   text-align: center;
   display: grid;
+  margin: 0px 10px;
   align-content: space-between;
 }
 
@@ -843,7 +806,7 @@ form {
 }
 
 .spanblog {
-  max-width: 78.33%;
+  max-width: 85%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1144,9 +1107,8 @@ form {
   width: 8px;
   height: 8px;
   margin: 0 12px;
-  border-radius: 100%;
   z-index: 3;
-  outline-offset: -9px;
+  outline-offset: -5px;
   outline: 8px solid #333333;
 
   cursor: pointer;
@@ -1281,7 +1243,7 @@ form {
   justify-content: end;
 }
 
-.numbers {
+.about_numbers {
   display: grid;
   justify-content: space-between;
 }
