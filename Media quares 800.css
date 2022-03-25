@@ -95,13 +95,13 @@
         grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
       }
 
-      .withusleft {
+      .withus_left {
         margin: 0 25px;
         margin-top: 45px;
         max-width: 800px;
       }
 
-      .withusleft h4 {
+      .withus_left h4 {
         text-align: center;
         font-style: normal;
         font-weight: 500;
@@ -110,7 +110,7 @@
         color: #ffffff;
       }
 
-      .withusleft p {
+      .withus_left p {
         margin: 0 auto;
         text-align: center;
         max-width: 800px;
@@ -193,7 +193,6 @@
       }
 
       .feedback {
-        max-width: 1440px;
         background: #1b1e22;
         overflow: hidden; /*Схлопывание margin*/
       }

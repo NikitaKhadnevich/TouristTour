@@ -33,6 +33,7 @@
     .numbers {
       min-width: 120px;
     }
+
     .socialus {
       width: 50%;
       grid-column: 1 / 3;
@@ -92,7 +93,7 @@
       /*+++++++++++++++++++++++++++++++++++++++++*/
 
       @media screen and (max-width: 768px) {
-        .frstblk {
+        article {
           width: 100%;
           background-image: linear-gradient(
               180deg,
@@ -109,11 +110,11 @@
           grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         }
 
-        .logo img {
+        .header_logo img {
           margin-left: 25px;
         }
 
-        .menu {
+        .header_menu {
           width: 100%;
         }
 
@@ -121,12 +122,12 @@
           grid-template-columns: repeat(2, 1fr);
         }
 
-        .withusleft h4 {
+        .withus_left h4 {
           text-align: center;
           grid-template-columns: repeat(2, 1fr);
         }
 
-        .withusleft {
+        .withus_left {
           margin: 0 25px;
           margin-top: 45px;
           max-width: 800px;
@@ -134,7 +135,7 @@
         }
       }
 
-      .withusleft p {
+      .withus_left p {
         margin: 0 auto;
         text-align: center;
         max-width: 75%;

@@ -1,37 +1,37 @@
 @media screen and (max-width: 550px) {
-  .logo img {
+  .header_logo img {
     margin-left: 25px;
   }
 
-  .menu ul {
+  .header_menu ul {
     display: grid;
     grid-row-gap: 15px;
     height: 100%;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 
-  .menu ul li:hover {
+  .header_menu ul li:hover {
     width: 200px;
     transition: all 0.4s;
   }
 
-  .menu ul li {
+  .header_menu ul li {
     height: 28px;
   }
 
-  .rueng {
+  .header_rueng {
     margin-right: 0 auto;
   }
 
-  .withusleft {
+  .withus_left {
     max-width: 500px;
   }
 
-  .withusleft p .withusleft h4 {
+  .withus_left p .withus_left h4 {
     max-width: 75%;
   }
 
-  .withusleft h4 {
+  .withus_left h4 {
     font-size: 45px;
     line-height: 50px;
   }
@@ -168,12 +168,12 @@
         grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
       }
 
-      .menu ul {
+      .header_menu ul {
         grid-row-gap: 10px;
         grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
       }
 
-      .menu ul li:hover {
+      .header_menu ul li:hover {
         width: 100%;
       }
 
@@ -181,18 +181,18 @@
         grid-template-columns: repeat(1, 1fr);
       }
 
-      .withusleft {
+      .withus_left {
         font-size: 40px;
         margin-top: 35px;
         width: 380px;
       }
 
-      .withusleft h4 {
+      .withus_left h4 {
         font-size: 40px;
         line-height: 46px;
       }
 
-      .withusleft p {
+      .withus_left p {
         font-size: 18px;
         line-height: 25px;
         margin-top: 10px;
@@ -251,7 +251,7 @@
       /*+++++++++++++++++++++++++++++++++++++++++*/
 
       @media screen and (max-width: 380px) {
-        .withusleft h4 {
+        .withus_left h4 {
           font-size: xx-large;
           line-height: 35px;
         }
