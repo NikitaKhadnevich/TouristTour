@@ -245,7 +245,7 @@ form {
   -moz-appearance: none;
   appearance: none;
   background-position: 95%;
-  background-image: url(images/Form/Arrow_down.png);
+  background-image: url(../images/Form/Arrow_down.png);
   background-repeat: no-repeat;
   outline: none;
 }
@@ -259,7 +259,7 @@ form {
 }
 
 .where input[type="text"] {
-  background-image: url(images/Form/Ellipse.png);
+  background-image: url(../images/Form/Ellipse.png);
   background-repeat: no-repeat;
   background-position: 95%;
   outline: none;
@@ -662,11 +662,11 @@ form {
       rgba(27, 30, 34, 0.78),
       #1b1e22 80.67%
     ),
-    url(images/Stat/Stat.jpg);
+    url(../images/Stat/Stat.jpg);
   background-image: -o-linear-gradient(rgba(27, 30, 34, 0.78), #1b1e22 80.67%),
-    url(images/Stat/Stat.jpg);
+    url(../images/Stat/Stat.jpg);
   background-image: linear-gradient(rgba(27, 30, 34, 0.78), #1b1e22 80.67%),
-    url(images/Stat/Stat.jpg);
+    url(../images/Stat/Stat.jpg);
   background-size: cover;
   overflow: hidden;
   /*Схлопывание margin*/
@@ -739,7 +739,7 @@ form {
   width: 100%;
   min-height: 480px;
   background: linear-gradient(rgba(31, 31, 31, 0.65), rgba(31, 31, 31, 0.65)),
-    url(images/Ourblog/Rectangle2.jpg);
+    url(../images/Ourblog/Rectangle2.jpg);
   border-radius: 4px;
   background-size: cover;
   background-position: center center;
