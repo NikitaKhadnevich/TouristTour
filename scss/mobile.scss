@@ -1,0 +1,150 @@
+@media screen and (max-width: 425px) {
+  .header {
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  }
+
+  .header_menu ul {
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  }
+
+  .header_menu ul li {
+    height: 28px;
+  }
+
+  .header_menu ul li:hover {
+    width: 200px;
+    transition: all 0.4s;
+  }
+
+  .header_rueng {
+    margin-right: 0 auto;
+  }
+
+  .withus_form {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .withus_left {
+    font-size: 40px;
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .withus_left h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .withus_left p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+
+  .whyus p {
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+
+  .where input[type="text"],
+  .howlong input[type="text"],
+  .when select[type="text"],
+  .typetour select[type="text"] {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+  .search__1 {
+    border-radius: 4px;
+    padding: 5px 20px;
+    max-width: 260px;
+  }
+
+  .tourist_routes {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .pleft p,
+  .pright p {
+    margin: 0 auto;
+  }
+
+  .routes {
+    width: 92%;
+  }
+
+  .routes > p,
+  .routes > h4 {
+    padding: 0 10px;
+  }
+
+  .routes img {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    max-height: 216px;
+  }
+
+  .routes a {
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 24px;
+  }
+
+  .slider__contents p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .blocks {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .cost {
+    top: 0px;
+  }
+
+  .advantages {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contain {
+    height: 360px;
+    justify-self: center;
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .contain p {
+    font-size: 25px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  form {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .where,
+  .typetour,
+  .search,
+  .howlong,
+  .when {
+    margin: auto;
+    width: 100%;
+    grid-column: 1 / 3;
+  }
+
+  .feedback h4 {
+    margin-bottom: auto;
+  }
+}

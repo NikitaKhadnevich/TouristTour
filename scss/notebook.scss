@@ -1,0 +1,67 @@
+@media screen and (max-width: 1280px) {
+  .header_rueng {
+    justify-content: space-evenly;
+    margin: 28px 25px 15px 25px;
+  }
+
+  .visap p,
+  .worldp p,
+  .guidep p,
+  .equipmentp p {
+    margin: 0 15px;
+  }
+
+  .bignews {
+    height: 100%;
+  }
+
+  .connectus,
+  .callnumbus,
+  .socialus {
+    height: 60px;
+  }
+
+  .connectus {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .blocks {
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .callnumbus {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .nuberfrst {
+    height: auto;
+    justify-content: flex-end;
+    width: 85%;
+    margin: auto;
+  }
+
+  .email h5,
+  .location h5,
+  .nuberfrst h5 {
+    margin-right: 15px;
+  }
+
+  .socialus {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .socialus h5 {
+    display: block;
+    text-align: center;
+  }
+
+  .allsoc {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
