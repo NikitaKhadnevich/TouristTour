@@ -75,7 +75,6 @@ article {
 }
 
 .header_rueng ul li a {
-  font-family: "Montserrat-Medium";
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -84,6 +83,7 @@ article {
   text-decoration: none;
   list-style-type: none;
   align-self: flex-start;
+  font-family: "Montserrat-Light";
 }
 
 .header_rueng ul li a:visited {
@@ -466,6 +466,7 @@ form {
   align-items: start;
   transition: 0.5s all;
   position: relative;
+  border-radius: 5px;
 }
 
 .routes img {
@@ -473,6 +474,7 @@ form {
   height: 216px;
   margin: 0;
   line-height: 0;
+  border-radius: 5px;
 }
 
 .routes h4 {
@@ -617,121 +619,26 @@ form {
   border-radius: 5px;
 }
 
-.tourist_routes:hover .routes__1 .cost .pright p {
-  color: #ffffff;
-}
-.tourist_routes:hover .routes__2 .cost .pright p {
-  color: #ffffff;
-}
-.tourist_routes:hover .routes__3 .cost .pright p {
-  color: #ffffff;
-}
-.tourist_routes:hover .routes__4 .cost .pright p {
-  color: #ffffff;
-}
-.tourist_routes:hover .routes__5 .cost .pright p {
-  color: #ffffff;
-}
-.tourist_routes:hover .routes__6 .cost .pright p {
+.tourist_routes:hover .routes .cost .pright p {
   color: #ffffff;
 }
 
-.routes__1:hover {
-  background: white;
-  color: black;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-.routes__2:hover {
-  background: white;
-  color: black;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-.routes__3:hover {
-  background: white;
-  color: black;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-.routes__4:hover {
-  background: white;
-  color: black;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-.routes__5:hover {
-  background: white;
-  color: black;
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-.routes__6:hover {
+.routes:hover {
   background: white;
   color: black;
   transform: scale(1.05);
   transition: all 0.5s;
 }
 
-.routes__1:hover h4 {
-  color: #333333;
-}
-.routes__2:hover h4 {
-  color: #333333;
-}
-.routes__3:hover h4 {
-  color: #333333;
-}
-.routes__4:hover h4 {
-  color: #333333;
-}
-.routes__5:hover h4 {
-  color: #333333;
-}
-.routes__6:hover h4 {
+.routes:hover h4 {
   color: #333333;
 }
 
-.routes__1:hover p {
-  color: #333333;
-}
-.routes__2:hover p {
-  color: #333333;
-}
-.routes__3:hover p {
-  color: #333333;
-}
-.routes__4:hover p {
-  color: #333333;
-}
-.routes__5:hover p {
-  color: #333333;
-}
-.routes__6:hover p {
+.routes:hover p {
   color: #333333;
 }
 
-.routes__1:hover a {
-  color: #000000;
-  opacity: 0.5;
-}
-.routes__2:hover a {
-  color: #000000;
-  opacity: 0.5;
-}
-.routes__3:hover a {
-  color: #000000;
-  opacity: 0.5;
-}
-.routes__4:hover a {
-  color: #000000;
-  opacity: 0.5;
-}
-.routes__5:hover a {
-  color: #000000;
-  opacity: 0.5;
-}
-.routes__6:hover a {
+.routes:hover a {
   color: #000000;
   opacity: 0.5;
 }
@@ -980,6 +887,7 @@ form {
 .feedback {
   min-height: 432px;
   background: #1b1e22;
+  margin-top: -3px;
   overflow: hidden; /*Схлопывание margin*/
 }
 
@@ -1150,17 +1058,17 @@ form {
 .footer {
   min-height: 92px;
   background: #1b1e22;
+  margin-top: -3px;
   overflow: hidden;
 }
 .blocks {
-  width: 71%;
+  width: 85%;
   min-height: 76px;
-  margin-left: 214px;
-  margin-right: 200px;
   display: grid;
   justify-content: space-around;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(30px, auto);
+  margin: 0 auto;
 }
 
 .connectus,
@@ -1168,21 +1076,10 @@ form {
 .socialus {
   width: 100%;
   height: 76px;
-}
-
-.connectus {
-  width: 394px;
-  margin-left: 33px;
-}
-
-.callnumbus {
-  width: 269px;
-  margin-right: 86px;
-}
-
-.socialus {
-  width: 152px;
-  margin-right: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
 }
 
 .email,
@@ -1233,9 +1130,6 @@ form {
 
 .nuberfrst {
   display: flex;
-  justify-content: flex-start;
-  height: 24px;
-  width: 100%;
 }
 
 .nuberfrst h5 {
@@ -1275,12 +1169,14 @@ form {
   height: 36px;
   display: flex;
   justify-content: space-between;
+  width: 200px;
 }
 
 .allsoc img {
   height: 18px;
   display: flex;
   justify-content: space-between;
+  transition: all 0.4s;
 }
 
 .allsoc a img:hover {
