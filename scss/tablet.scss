@@ -43,14 +43,15 @@
   .header_menu ul li:hover {
     border: none;
     transition: all 0.5s;
-    transform: scale(1.1);
     padding: 0px;
+    transform: scale(1);
   }
 
   .header_menu ul li a:hover {
     color: #ffb800;
     background-color: #ffffff36;
     border-radius: 10px;
+    transform: scale(1.1);
   }
 
   .withus {

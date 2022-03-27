@@ -1,6 +1,6 @@
 const routeData = [
   {
-    foto: "images/tourest/routes__1.jpg",
+    foto: "images/Tourest/hargander.jpeg",
     describe: "Кемпинг в Хардангере",
     cost: "460$",
     date: "29 декабря 2021, 5 дней",
@@ -9,7 +9,7 @@ const routeData = [
       "Одно из лучших мест отдыха находится в районе Хардангера, у туристов есть возможность ежедневно любоваться<br>дикой природой севера.</br>",
   },
   {
-    foto: "images/tourest/routes__2.jpg",
+    foto: "images/Tourest/sognefeord.jpeg",
     describe: "Треккинг по Согне-фьорд",
     cost: "520$",
     date: "11 ноября 2022, 5 дней",
@@ -18,7 +18,7 @@ const routeData = [
       "Уникальный поход совмещенный с путешествием по самому большому и красивому фьорду – Согне-фьорд.",
   },
   {
-    foto: "images/tourest/routes__3.jpg",
+    foto: "images/Tourest/svanetia.jpeg",
     describe: "Восхождение на гору Сванети",
     cost: "660$",
     date: "18 октября 2022, 5 дней",
@@ -27,7 +27,7 @@ const routeData = [
       "Одна из самых знаменитых гор Кавказа. Расположена она в регионе Сванети. Со сванского языка УШ означает беда, Ба — гору. То есть гора, приносящая несчастье.",
   },
   {
-    foto: "images/tourest/routes__4.jpg",
+    foto: "images/Tourest/saima.jpeg",
     describe: "Сайма в Финляндии",
     cost: "610$",
     date: "14 мая 2022, 7 дней",
@@ -36,7 +36,7 @@ const routeData = [
       "Водный поход с элементами ориентирования и необычными природными объектами. Неделя настоящего отдыха для тех, кто любит ...",
   },
   {
-    foto: "images/tourest/routes__5.jpg",
+    foto: "images/Tourest/troll.jpg",
     describe: "Язык Тролля",
     cost: "960$",
     date: "16 июня 2022, 9 дней",
