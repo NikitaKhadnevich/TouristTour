@@ -5,7 +5,7 @@ This application includes a little bit JS but has a lot of HTML + SCSS/SASS\
 this is my vision of what it might look like WEB Landing for business, small companies etc.\
 Its work too easy - open `index.html` file in your browser and scroll down))\
 By the way For work with SASS you might use `npm run sass`
-Also you can see this application here => [Link to GitHub Pages](https://nikitakhadnevich.github.io/ArtLanding).
+Also you can see this application here => [Link to GitHub Pages](https://nikitakhadnevich.github.io/TouristTour/).
 
 # Stack
 

@@ -828,8 +828,6 @@ form {
 
 .smallnews img {
   width: 100%;
-  max-width: 264px;
-  max-height: 216px;
   border-radius: 10px 3px 0px 0px;
   margin-bottom: 20px;
 }
@@ -865,7 +863,7 @@ form {
 }
 
 .media {
-  max-height: 420px;
+  max-height: 500px;
   overflow: hidden;
   overflow-wrap: break-word;
 }
@@ -1248,6 +1246,24 @@ footer {
   overflow: hidden;
 }
 
+@media screen and (min-width: 1920px) {
+  .bignews {
+    width: 100%;
+    min-height: 550px;
+  }
+
+  .smallnews {
+    height: 550px;
+  }
+
+  .smallnews img {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }
+}
 @media screen and (max-width: 1280px) {
   .header_rueng {
     justify-content: space-evenly;
