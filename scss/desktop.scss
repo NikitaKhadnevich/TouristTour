@@ -1,3 +1,7 @@
+$white-color: #ffffff;
+$background-elems: #ffb800;
+$gray-elems: #333333;
+
 * {
   padding: 0;
   margin: 0;
@@ -79,7 +83,7 @@ article {
   font-weight: 500;
   font-size: 13px;
   vertical-align: top;
-  color: #ffffff;
+  color: $white-color;
   text-decoration: none;
   list-style-type: none;
   align-self: flex-start;
@@ -87,7 +91,7 @@ article {
 }
 
 .header_rueng ul li a:visited {
-  color: gray;
+  color: $gray-elems;
 }
 
 .header_menu {
@@ -119,7 +123,7 @@ article {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  color: #ffffff;
+  color: $white-color;
   text-decoration: none;
   list-style-type: none;
   display: flex;
@@ -127,7 +131,7 @@ article {
 }
 
 .header_menu ul li:hover {
-  border: 1px solid #ffb800;
+  border: 1px solid $background-elems;
   box-sizing: border-box;
   border-radius: 10px;
   transition: all 0.5s;
@@ -144,7 +148,7 @@ article {
 }
 
 .withus_left {
-  color: #ffffff;
+  color: $white-color;
   margin-top: 45px;
   max-width: 556px;
 }
@@ -155,7 +159,7 @@ article {
   font-weight: 500;
   font-size: 48px;
   line-height: 58px;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .withus_left p {
@@ -165,7 +169,7 @@ article {
   line-height: 38px;
   margin-top: 42px;
   text-align: start;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .withus_form {
@@ -191,7 +195,7 @@ article {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: $white-color;
   margin-bottom: 23px;
 }
 
@@ -232,14 +236,14 @@ form {
 .when select[type="text"],
 .typetour select[type="text"] {
   font-family: "Montserrat-Light";
-  border: 1px solid #ffffff;
+  border: 1px solid $white-color;
   box-sizing: border-box;
   border-radius: 4px;
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
   background: rgba(51, 51, 51, 0.25);
-  color: #ffffff;
+  color: $white-color;
   padding-left: 13px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -266,67 +270,67 @@ form {
 } /*Вставка графики в форму*/
 
 .where input[type="text"]::-moz-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .where input[type="text"]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .where input[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .where input[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .where input[type="text"]::placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .when select[type="text"]::-moz-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .when select[type="text"]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .when select[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .when select[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .when select[type="text"]::placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .typetour select[type="text"]::-moz-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .typetour select[type="text"]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .typetour select[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .typetour select[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .typetour select[type="text"]::placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .howlong input[type="text"]::-moz-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .howlong input[type="text"]::-webkit-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .howlong input[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .howlong input[type="text"]::-ms-input-placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 .howlong input[type="text"]::placeholder {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .where__1,
@@ -342,36 +346,36 @@ form {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #ffffff;
+  color: $white-color;
   font-family: "Montserrat-Light";
   background: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid $white-color;
   box-sizing: border-box;
   border-radius: 4px;
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .search__1 {
   width: 360px;
   height: 36px;
-  background: #ffb800;
+  background: $background-elems;
   border-radius: 10px;
   border: none;
   padding: 5px 20px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #333333;
+  color: $gray-elems;
   cursor: pointer;
   transition: 0.2s all;
 }
 
 .search__1:hover {
-  color: #ffffff;
-  background-color: #c28c28;
+  color: $white-color;
+  background-color: $gray-elems;
   transition: 0.2s all;
 }
 
@@ -397,7 +401,7 @@ form {
   font-size: 34px;
   line-height: 38px;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
   margin-bottom: 21px;
 }
 
@@ -451,7 +455,7 @@ form {
   font-size: 34px;
   line-height: 38px;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
   margin-bottom: 45px;
 }
 
@@ -494,7 +498,7 @@ form {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: $white-color;
   max-width: 100%;
   margin: 0 auto;
   padding: 0px 20px;
@@ -507,7 +511,7 @@ form {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  color: #ffffff;
+  color: $white-color;
   max-width: 100%;
   margin: 0 auto;
   text-align: left;
@@ -522,7 +526,7 @@ form {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #ffffff;
+  color: $white-color;
   opacity: 0.5;
   text-decoration: none;
   max-width: 97px;
@@ -547,7 +551,7 @@ form {
 }
 
 .pleft {
-  background: #ffb800;
+  background: $background-elems;
   width: 78px;
 }
 
@@ -577,7 +581,7 @@ form {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #ffffff;
+  color: $white-color;
   margin: 0 auto;
 }
 
@@ -591,7 +595,7 @@ form {
 .lookall a {
   font-family: "Montserrat-Medium";
   margin: 0 auto;
-  color: #ffffff;
+  color: $white-color;
   padding: 10px 20px;
   width: 216px;
   text-decoration: none;
@@ -602,7 +606,7 @@ form {
   font-weight: 450;
   font-size: 20px;
   line-height: 24px;
-  border: 1px solid #ffb800;
+  border: 1px solid $background-elems;
   box-sizing: border-box;
   border-radius: 4px;
   transition: color 0.5s;
@@ -610,7 +614,7 @@ form {
 
 .lookall a:after {
   content: " ";
-  border: 2px solid #ffb800;
+  border: 2px solid $background-elems;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -622,12 +626,12 @@ form {
 }
 
 .lookall a:hover {
-  color: #ffb800;
+  color: $background-elems;
   transition: color 0.5s;
 }
 
 .lookall a:hover:after {
-  border: 2px solid #ffffff;
+  border: 2px solid $white-color;
   width: calc(100% - 10px);
   height: calc(100% + 10px);
   border-radius: 5px;
@@ -635,7 +639,7 @@ form {
 }
 
 .tourist_routes:hover .routes .cost .pright p {
-  color: #ffffff;
+  color: $white-color;
 }
 
 .routes:hover {
@@ -646,11 +650,11 @@ form {
 }
 
 .routes:hover h4 {
-  color: #333333;
+  color: $gray-elems;
 }
 
 .routes:hover p {
-  color: #333333;
+  color: $gray-elems;
 }
 
 .routes:hover a {
@@ -698,7 +702,7 @@ form {
   font-weight: 500;
   font-size: 78px;
   text-align: center;
-  color: #ffb800;
+  color: $background-elems;
 }
 
 .txt p {
@@ -708,7 +712,7 @@ form {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .ourblog {
@@ -723,7 +727,7 @@ form {
   font-weight: 500;
   font-size: 34px;
   line-height: 38px;
-  color: #ffffff;
+  color: $white-color;
   text-align: center;
 }
 
@@ -758,7 +762,7 @@ form {
   font-size: 34px;
   line-height: 38px;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
   padding: 51px 16px 0px 16px;
 }
 
@@ -770,7 +774,7 @@ form {
   font-size: 13px;
   line-height: 16px;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
   margin-top: 24px;
 }
 
@@ -815,7 +819,7 @@ form {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: $white-color;
   margin: 0 auto;
   margin-bottom: 14px;
 }
@@ -828,7 +832,7 @@ form {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
+  color: $white-color;
   text-align: left;
   mix-blend-mode: normal;
 }
@@ -892,7 +896,7 @@ form {
 .lookalltw a {
   font-family: "Montserrat-Medium";
   margin: 0 auto;
-  color: #ffffff;
+  color: $white-color;
   padding: 10px 20px;
   width: 216px;
   text-decoration: none;
@@ -903,33 +907,33 @@ form {
   font-weight: 450;
   font-size: 20px;
   line-height: 24px;
-  border: 1px solid #ffb800;
+  border: 1px solid $background-elems;
   box-sizing: border-box;
   border-radius: 4px;
   transition: 0.2s all;
 }
 
 .lookalltw a:hover {
-  background-color: #ffb800;
+  background-color: $background-elems;
   color: #1b1e22;
   transition: 0.6s;
 }
 
-.feedback {
+aside {
   min-height: 432px;
   background: #1b1e22;
   margin-top: -3px;
   overflow: hidden; /*Схлопывание margin*/
 }
 
-.feedback h4 {
+aside h4 {
   font-family: "Montserrat-Medium";
   font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 38px;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
   margin-bottom: 47px;
 }
 
@@ -1027,7 +1031,7 @@ form {
   line-height: 32px;
   display: flex;
   text-align: center;
-  color: #ffffff;
+  color: $white-color;
   height: 100%;
 }
 
@@ -1036,7 +1040,7 @@ form {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  color: #ffb800;
+  color: $background-elems;
   height: 100%;
   margin-top: 16px;
 }
@@ -1048,7 +1052,7 @@ form {
   margin: 0 12px;
   z-index: 3;
   outline-offset: -5px;
-  outline: 8px solid #333333;
+  outline: 8px solid $gray-elems;
 
   cursor: pointer;
   -webkit-appearance: none;
@@ -1071,7 +1075,7 @@ form {
 
 @keyframes check {
   50% {
-    outline-color: #ffb800;
+    outline-color: $background-elems;
     box-shadow: 0 0 0 12px white, 0 0 0 36px rgba(51, 51, 51, 0.2);
   }
   100% {
@@ -1086,7 +1090,7 @@ form {
   border-radius: 1000px; /* Радиус скругления */
 }
 
-.footer {
+footer {
   min-height: 92px;
   background: #1b1e22;
   margin-top: -3px;
@@ -1139,7 +1143,7 @@ form {
   line-height: 16px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .email h5,
@@ -1152,7 +1156,7 @@ form {
   font-weight: normal;
   font-size: 13px;
   line-height: 16px;
-  color: #ffb800;
+  color: $background-elems;
   margin-right: 26px;
   display: flex;
   align-items: center;
@@ -1193,7 +1197,7 @@ form {
   display: flex;
   align-items: center;
   text-align: right;
-  color: #ffb800;
+  color: $background-elems;
 }
 
 .allsoc {
@@ -1213,7 +1217,7 @@ form {
 .allsoc a img:hover {
   transform: scale(1.5);
   transition: all 0.4s;
-  background: #ffb800;
+  background: $background-elems;
   padding: 5px;
   border-radius: 50px;
   overflow: hidden;
